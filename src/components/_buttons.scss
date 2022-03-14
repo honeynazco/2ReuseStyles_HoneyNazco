@@ -1,0 +1,43 @@
+@mixin setButton($color){
+    border-color: $color;
+    transition: all 250ms ease-in-out;    
+
+    &:hover{            
+        background-color: $color;
+        color: $light;
+    }
+}
+
+.btn{
+    font-family: $titleFont;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;    
+    padding: 5px;
+    margin: 3px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 11px;
+
+    &:hover{
+        border-width: 0px;
+    }
+
+    &-#{$vectorLabel}{
+        @include setButton($first);
+    }
+
+    &-#{$paintLabel}{
+        @include setButton($second);
+    }
+    &-#{$photoLabel}{
+        @include setButton($third);
+    }
+    &-#{$threedLabel}{
+        @include setButton($fourth);
+    }
+    &-#{$aniLabel}{
+        @include setButton($fifth);
+    }
+
+}

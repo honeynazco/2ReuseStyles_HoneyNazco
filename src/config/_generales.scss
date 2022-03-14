@@ -1,0 +1,17 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+
+@mixin setFlex ($dir, $align){
+    display: flex;
+    flex-direction: $dir;
+    
+    @if $dir == row  {
+        justify-content: $align;
+    }
+    
+    @else {
+        align-content: $align;
+    }    
+}

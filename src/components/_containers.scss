@@ -1,0 +1,14 @@
+.container{
+    @include setFlex(row, space-evenly);
+}
+
+.contact{
+    @include setFlex(row, space-evenly);
+    background-color: $six;
+    align-items: center;
+    color: $light;
+
+    h3{
+        font-family: $headerFont;
+    }
+}

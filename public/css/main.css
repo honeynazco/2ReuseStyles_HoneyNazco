@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Round");
+@import url("https://fonts.googleapis.com/css2?family=Capriola&display=swap");
+* {
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #3a9666;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.contact h3 {
+  font-family: "Neucha", cursive;
+}
+
+.title {
+  padding: 5px;
+  background: url("../images/shapes.gif") center no-repeat;
+}
+
+.title h1 {
+  font-family: "Neucha", cursive;
+  text-align: center;
+  text-shadow: 2px 2px white;
+}
+
+.btn {
+  font-family: "Bebas Neue", cursive;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 5px;
+  margin: 3px;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 11px;
+}
+
+.btn:hover {
+  border-width: 0px;
+}
+
+.btn-vector {
+  border-color: #ec9a99;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+}
+
+.btn-vector:hover {
+  background-color: #ec9a99;
+  color: white;
+}
+
+.btn-paint {
+  border-color: #e86644;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+}
+
+.btn-paint:hover {
+  background-color: #e86644;
+  color: white;
+}
+
+.btn-photo {
+  border-color: #90d1d3;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+}
+
+.btn-photo:hover {
+  background-color: #90d1d3;
+  color: white;
+}
+
+.btn-threed {
+  border-color: #f6c83a;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+}
+
+.btn-threed:hover {
+  background-color: #f6c83a;
+  color: white;
+}
+
+.btn-ani {
+  border-color: #f48d1f;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+}
+
+.btn-ani:hover {
+  background-color: #f48d1f;
+  color: white;
+}
+
+.card {
+  padding: 25px;
+  border-style: solid;
+  border-radius: 20px;
+  text-align: center;
+  color: black;
+}
+
+.content {
+  margin: 50px 0px;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 40%;
+  margin: auto;
+}
+
+.card header {
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+}
+
+.card img:hover {
+  -webkit-filter: grayscale(50%);
+          filter: grayscale(50%);
+}
+
+.card footer {
+  font-family: "Capriola", sans-serif;
+  font-size: 20px;
+}
+
+#vector{
+  display: none;
+}
+
+#vector:target{
+  display: flex;
+  flex-direction: column;
+}
+
+#paint{
+  display: none;
+}
+
+#paint:target{
+  display: flex;
+  flex-direction: column;
+}
+
+#photo{
+  display: none;
+}
+
+#photo:target{
+  display: flex;
+  flex-direction: column;
+}
+
+#threed{
+  display: none;
+}
+
+#threed:target{
+  display: flex;
+  flex-direction: column;
+}
+
+#ani{
+  display: none;
+}
+
+#ani:target{
+  display: flex;
+  flex-direction: column;
+}
+/*# sourceMappingURL=main.css.map */
