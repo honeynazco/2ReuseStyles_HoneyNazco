@@ -6,14 +6,6 @@
     color: black;
 }
 
-@mixin setTarget ($none, $flex){
-    display: $none;
-
-    &:hover{
-        display: $flex;
-    }
-}
-
 .content{
     margin: 50px 0px;
 }
